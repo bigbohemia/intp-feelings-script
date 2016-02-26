@@ -22,7 +22,7 @@ while [ 1 ]; do
 
     research_if_i_care
 
-    if ["$do_i_really_care" = false]; then   
+    if [ "$do_i_really_care" = "false" ]; then   
         exit
     fi
 
